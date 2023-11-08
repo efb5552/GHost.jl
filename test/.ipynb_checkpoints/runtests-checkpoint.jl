@@ -10,7 +10,6 @@ R_planet_test = 2*big(10.)^7
 m_test = GHost.create_masses(n_test,10^(-20),10^(-10))
 R_test,V_test = GHost.initial_conditions(m_test,2,3,M_planet_test,R_planet_test)
 A_test = GHost.acceleration(m_test,R_test,M_planet_test,R_planet_test)
-display(A_test)
 x_new = GHost.position_change(1,R_test,V_test,A_test,0.0001)
 y_new = GHost.position_change(2,R_test,V_test,A_test,0.0001)
 Vx_new = GHost.velocity_change(1,V_test,A_test,0.0001)
