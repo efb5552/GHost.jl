@@ -1,0 +1,26 @@
+Starting job ex3_serial
+Job id: 6634301
+Tue Oct 24 09:58:43 EDT 2023
+Activing environment with that provides Julia 1.9.2
+About to change into /storage/home/efb5552/HPC/HPC Project/project-efb5552/GHost
+/var/spool/slurm/d/job6634301/slurm_script: line 40: cd: too many arguments
+Tue Oct 24 09:58:44 EDT 2023
+About to start Julia
+Test Summary:      | Pass  Total  Time
+Pythagoras.jl Test |    4      4  1.1s
+Test Summary:         | Pass  Total  Time
+create_masses.jl Test |    3      3  0.0s
+Test Summary:              | Pass  Total  Time
+initial_conidtions.jl Test |    4      4  0.0s
+Test Summary:        | Pass  Total  Time
+acceleration.jl Test |    4      4  0.0s
+Test Summary:           | Pass  Total  Time
+position_change.jl Test |    2      2  0.1s
+Test Summary:           | Pass  Total  Time
+velocity_change.jl Test |    2      2  0.0s
+Test Summary:         | Pass  Total  Time
+move_particle.jl Test |    3      3  0.2s
+Test Summary:        | Pass  Total  Time
+orbit_matrix.jl Test |    3      3  0.0s
+Julia exited
+Tue Oct 24 09:58:52 EDT 2023
